@@ -56,7 +56,7 @@ Check Winning Condition
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Python** — Core programming language
 * **Pygame** — Game window, rendering, and interaction
@@ -66,7 +66,7 @@ Check Winning Condition
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Gesture_Controlled_Connect4/
@@ -228,41 +228,7 @@ A player wins as soon as four pieces are connected in any of these directions.
 
 ---
 
-## 🔮 Future Improvements
-
-Possible improvements for future versions:
-
-*  Animated piece dropping
-* 🔊 Sound effects
-* ✨ Piece and board animations
-* 🏠 Start/menu screen
-* 🏆 Improved winner screen
-* 🤖 AI opponent
-* 📊 Score tracking
-* 👥 Online multiplayer
-* 📱 Browser/mobile version
-* 🌐 Web-based deployment using JavaScript and MediaPipe
-* 🎨 More advanced UI and visual effects
-
----
-
-## 📸 Demo
-
-> Add a gameplay GIF or video here.
-
-For example:
-
-```markdown
-![Gesture Connect 4 Demo](assets/demo.gif)
-```
-
-A good demo should show:
-
-**Hand movement → column selection → pinch gesture → piece drop → winning move**
-
----
-
-## 💡 What I Learned
+##  What I Learned
 
 This project helped me explore:
 
@@ -276,26 +242,3 @@ This project helped me explore:
 * Combining computer vision with game development
 
 The main challenge was making gesture input feel intentional rather than triggering actions from small accidental movements. This led to using pinch detection and cooldown/state logic to distinguish deliberate gestures from normal hand movement.
-
----
-
-## 👩‍💻 Author
-
-**Gautami**
-
-Built as a hands-on project exploring **Computer Vision, Gesture Recognition, and Interactive Systems**.
-
----
-
-## ⭐ If You Like This Project
-
-Feel free to ⭐ the repository and explore the code!
-
-```
-
-### One important change before you commit it
-
-Your README currently claims `game_logic.py` contains the game logic. **Make sure that's actually true in your current code.** If your `main.py` currently contains `drop_piece()` and `check_winner()` while `game_logic.py` is unused, we should clean that architecture up before presenting the repo publicly.
-
-Also, once you have a gameplay recording, put it in `assets/demo.gif` and replace the demo placeholder. **A GIF of you moving your hand and dropping the pieces will make this README much stronger.**
-```
